@@ -3,7 +3,7 @@ import yo from "../../src/assets/img/Yo.png"
 
 export const SobreMi = () => {
     return (
-        <section className='px-80 py-15 w-full min-h-[500px]'>
+        <section className='px-50 py-15 w-full min-h-[500px]'>
             <h2 className="text-neutral-200 text-3xl font-extrabold font-['Syne'] mb-10">
                 <span className="text-blue-400 font-extrabold mb-5">I. </span>Sobre mi
             </h2>
@@ -27,7 +27,7 @@ export const SobreMi = () => {
                 </div>
                 <div className='relative'>
                     <img src={yo} alt="Adrian Carmona" className='w-64 rounded-2xl mask-radial-[100%_100%] mask-radial-from-55% mask-radial-at-top backdrop-blur-xl' />
-                    <div className='absolute w-60 h-70 inset-0 bg-blue-900 opacity-35 rounded-2xl'></div>
+                    <div className='absolute w-65 h-75 inset-0 bg-blue-900 opacity-35 rounded-2xl'></div>
                 </div>
             </div>
         </section >
