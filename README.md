@@ -28,16 +28,10 @@
 ## 📸 Capturas de pantalla
 
 ### Página Principal
-![Página Principal](./screenshots/hero.png)
+![Página Principal](./screenshots/landidng.png)
 
-### Sección Sobre Mí
-![Sobre Mí](./screenshots/about.png)
-
-### Proyectos
-![Proyectos](./screenshots/projects.png)
-
-### Contacto
-![Contacto](./screenshots/contact.png)
+### Secciones
+![Proyectos](./screenshots/proyectos.png)
 
 ## 🛠️ Tecnologías utilizadas
 
