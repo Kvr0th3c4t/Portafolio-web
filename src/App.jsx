@@ -6,6 +6,7 @@ import { LeftSideBar } from './components/layout/LeftSideBar'
 import { SobreMi } from './components/layout/SobreMi'
 import './index.css'
 import { RightSideBar } from './components/layout/RightSideBar'
+import { Footer } from './components/layout/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Proyectos></Proyectos>
         <Contacto></Contacto>
       </section>
+      <Footer></Footer>
     </main>
   )
 }

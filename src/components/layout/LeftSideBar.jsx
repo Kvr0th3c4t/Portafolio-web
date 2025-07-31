@@ -15,7 +15,7 @@ export const LeftSideBar = () => {
         0.25)
 
     return (
-        <nav className='hidden md:flex fixed left-6 md:left-8 lg:left-10 xl:left-10 bottom-0 w-10' ref={ref}>
+        <aside className='hidden md:flex fixed left-6 md:left-8 lg:left-10 xl:left-10 bottom-0 w-10' ref={ref}>
             <ul className='flex flex-col items-center m-0 p-0 gap-5'>
                 <li className="group navGit">
                     <a
@@ -61,6 +61,6 @@ export const LeftSideBar = () => {
                 </li>
                 <div className="navStick w-px h-32 md:h-36 lg:h-40 xl:h-40 bg-white/30 mt-2 bottom-0"></div>
             </ul>
-        </nav>
+        </aside>
     )
 }
