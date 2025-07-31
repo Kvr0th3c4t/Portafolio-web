@@ -28,7 +28,7 @@
 ## 📸 Capturas de pantalla
 
 ### Página Principal
-![Página Principal](./screenshots/landidng.png)
+![Página Principal](./screenshots/landing.png)
 
 ### Secciones
 ![Proyectos](./screenshots/proyectos.png)
