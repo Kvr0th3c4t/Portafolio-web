@@ -2,39 +2,21 @@ import React from 'react'
 import Github from "../../../src/assets/img/Icons/github.svg"
 import Mail from "../../../src/assets/img/Icons/mail.svg"
 import LinkedIn from "../../../src/assets/img/Icons/linkedin.svg"
-import gsap from 'gsap'
-import { useEffect, useRef } from 'react'
+import { useFadeIn } from '../../hooks/useFadeIn'
 
 export const LeftSideBar = () => {
-    const navLeft = useRef(null)
 
-    useEffect(() => {
-        const ctx = gsap.context(() => {
-            gsap.fromTo([
-                ".navGit",
-                ".navLink",
-                ".navMail",
-                ".navStick"
-            ],
-                {
-                    opacity: 0,
-                    y: 20
-                },
-                {
-                    opacity: 1,
-                    y: 0,
-                    delay: 1.2,
-                    duration: 0.5,
-                    stagger: 0.25,
-                    ease: "power2.out"
-                })
-        }, navLeft)
-
-        return () => ctx.revert()
-    }, [])
+    const ref = useFadeIn([
+        ".navGit",
+        ".navLink",
+        ".navMail",
+        ".navStick"],
+        1.2,
+        0.5,
+        0.25)
 
     return (
-        <nav className='fixed left-10 bottom-0 w-10' ref={navLeft}>
+        <nav className='fixed left-10 bottom-0 w-10' ref={ref}>
             <ul className='flex flex-col items-center m-0 p-0 gap-5'>
                 <li className="group navGit">
                     <a

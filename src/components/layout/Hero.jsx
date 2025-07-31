@@ -1,40 +1,20 @@
-import React, { useEffect, useRef } from 'react'
-import { gsap } from 'gsap'
 import { Button } from '../UI/Button'
 import RotatingText from '../UI/RotatingText'
+import { useFadeIn } from '../../hooks/useFadeIn'
 
 export const Hero = () => {
-
-    const heroRef = useRef(null)
-
-    useEffect(() => {
-        const ctx = gsap.context(() => {
-            gsap.fromTo([
-                ".hero-greeting",
-                ".hero-name",
-                ".hero-subtitle",
-                ".hero-description",
-                ".hero-button"
-            ],
-                {
-                    opacity: 0,
-                    y: 20
-                },
-                {
-                    opacity: 1,
-                    y: 0,
-                    delay: 2,
-                    duration: 1,
-                    stagger: 0.45,
-                    ease: "power2.out"
-                })
-        }, heroRef)
-
-        return () => ctx.revert()
-    }, [])
+    const ref = useFadeIn([
+        ".hero-greeting",
+        ".hero-name",
+        ".hero-subtitle",
+        ".hero-description",
+        ".hero-button"],
+        2,
+        1,
+        0.45)
 
     return (
-        <section className='px-80 pt-15 min-h-screen' id='hero' ref={heroRef}>
+        <section className='px-80 pt-15 min-h-screen' id='hero' ref={ref}>
             <div className="w-full min-h-[500px]">
                 <p className="hero-greeting text-blue-400 text-lg font-extrabold font-['RedHat'] mb-5">
                     ¡Hola!, mi nombre es

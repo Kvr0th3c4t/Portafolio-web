@@ -2,41 +2,21 @@
 import profile from "../../../src/assets/img/Profile.png"
 import { Button } from "../UI/Button"
 import CV from "../../../src/assets/docs/AdrianCC_CV.pdf"
-import gsap from "gsap"
-import { useEffect } from "react"
-import { useRef } from "react"
+import { useFadeIn } from "../../hooks/useFadeIn"
 
 export const Nav = () => {
-    const navRef = useRef(null)
-
-    useEffect(() => {
-        const ctx = gsap.context(() => {
-            gsap.fromTo([
-                ".navLogo",
-                ".navSobreMi",
-                ".navProyectos",
-                ".navContacto",
-                ".navCv"
-            ],
-                {
-                    opacity: 0,
-                    y: 20
-                },
-                {
-                    opacity: 1,
-                    y: 0,
-                    delay: 0,
-                    duration: 0.5,
-                    stagger: 0.25,
-                    ease: "power2.out"
-                })
-        }, navRef)
-
-        return () => ctx.revert()
-    }, [])
+    const ref = useFadeIn([
+        ".navLogo",
+        ".navSobreMi",
+        ".navProyectos",
+        ".navContacto",
+        ".navCv"],
+        0.5,
+        0.5,
+        0.25)
 
     return (
-        <nav className="flex flex-row justify-between items-center px-20 py-10 mx-auto opacity-100" ref={navRef}>
+        <nav className="flex flex-row justify-between items-center px-20 py-10 mx-auto opacity-100" ref={ref}>
             <a className="navLogo p-1" href="/">
                 <img src={profile} alt="test" className="w-14 h-14 rounded-full border border-blue-400" />
             </a>
