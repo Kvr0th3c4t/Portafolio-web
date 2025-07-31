@@ -1,5 +1,5 @@
 import React from 'react'
-import yo from "../../../src/assets/img/Yo.png"
+import yo from "../../../src/assets/img/Yo.webp"
 import { useScrollTrigger } from '../../hooks/useScrollTrigger'
 
 export const SobreMi = () => {

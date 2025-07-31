@@ -1,8 +1,8 @@
 import React from 'react'
-import PinneHopper from "../../../src/assets/img/PinneHopper.png"
-import Innovatech from "../../../src/assets/img/Innovatech.png"
+import PinneHopper from "../../../src/assets/img/PinneHopper.webp"
+import Innovatech from "../../../src/assets/img/Innovatech.webp"
 import Github from "../../../src/assets/img/Icons/github.svg"
-import SpaceX from "../../../src/assets/img/spacexinfo.png"
+import SpaceX from "../../../src/assets/img/spacexinfo.webp"
 import External from "../../../src/assets/img/Icons/external.svg"
 import { Badges } from '../UI/Badges'
 import { useScrollTrigger } from '../../hooks/useScrollTrigger'

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import profile from "../../../src/assets/img/Profile.png"
+import profile from "../../../src/assets/img/Profile.webp"
 import { Button } from "../UI/Button"
 import CV from "../../../src/assets/docs/AdrianCC_CV.pdf"
 import { useFadeIn } from "../../hooks/useFadeIn"

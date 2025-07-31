@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../UI/Button'
-import Kuro from "../../../src/assets/img/Kuro.jpg"
+import Kuro from "../../../src/assets/img/Kuro.webp"
 import { useScrollTrigger } from '../../hooks/useScrollTrigger'
 
 export const Contacto = () => {
