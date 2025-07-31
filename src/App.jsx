@@ -1,7 +1,8 @@
-import { Hero } from './components/Hero'
-import { Nav } from './components/Nav'
-import { Proyectos } from './components/Proyectos'
-import { SobreMi } from './components/SobreMi'
+import { Contacto } from './components/layout/Contacto'
+import { Hero } from './components/layout/Hero'
+import { Nav } from './components/layout/Nav'
+import { Proyectos } from './components/layout/Proyectos'
+import { SobreMi } from './components/layout/SobreMi'
 import './index.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Hero></Hero>
         <SobreMi></SobreMi>
         <Proyectos></Proyectos>
+        <Contacto></Contacto>
 
       </section>
     </main>

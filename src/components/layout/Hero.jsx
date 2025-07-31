@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from './Button'
-import RotatingText from './layout/RotatingText'
+import { Button } from '../UI/Button'
+import RotatingText from '../UI/RotatingText'
 export const Hero = () => {
     return (
-        <section className='px-80 pt-15'>
+        <section className='px-80 pt-15 min-h-screen' id='hero'>
             <div className="w-full min-h-[500px]">
                 <p className="text-blue-400 text-lg font-extrabold font-['RedHat'] mb-5">¡Hola!, mi nombre es</p>
                 <div className='flex justify-start items-center'>
@@ -24,7 +24,7 @@ export const Hero = () => {
 
                 <p className="text-neutral-400 font-['Syne'] text-5xl font-bold mb-5">Y desarrollo aplicaciones web</p>
                 <p className="text-neutral-400 font-['Syne'] text-lg font-bold mb-5 max-w-4xl">Soy un desarrollador web con enfoque en frontend, aunque también tengo conocimientos de backend que me permiten abordar proyectos full-stack.</p>
-                <Button text="Ver mis proyectos"></Button>
+                <Button text="Ver mis proyectos" href="#proyectos"></Button>
             </div>
         </section>
     )
