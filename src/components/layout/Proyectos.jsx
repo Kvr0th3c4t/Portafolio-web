@@ -5,16 +5,19 @@ import Github from "../../../src/assets/img/Icons/github.svg"
 import SpaceX from "../../../src/assets/img/spacexinfo.png"
 import External from "../../../src/assets/img/Icons/external.svg"
 import { Badges } from '../UI/Badges'
+import { useScrollTrigger } from '../../hooks/useScrollTrigger'
 
 export const Proyectos = () => {
+    const ref = useScrollTrigger(["projectsTitle", "projectItem1", "projectItem2", "projectItem3"])
+
     return (
-        <section className='px-50 py-15 w-full min-h-screen' id='proyectos'>
-            <h2 className="text-neutral-200 text-3xl font-extrabold font-['Syne'] mb-10">
+        <section className='px-50 py-15 w-full min-h-screen' id='proyectos' ref={ref}>
+            <h2 className="projectsTitle text-neutral-200 text-3xl font-extrabold font-['Syne'] mb-10">
                 <span className="text-blue-400 font-extrabold mb-5">II. </span>Proyectos principales
             </h2>
             <div>
                 <ul>
-                    <li className='grid grid-cols-2 gap-5 mb-20'>
+                    <li className='projectItem1 grid grid-cols-2 gap-5 mb-20'>
                         <div className='w-full h-full'>
                             <img
                                 src={PinneHopper}
@@ -54,8 +57,7 @@ export const Proyectos = () => {
                             </nav>
                         </div>
                     </li>
-                    <li className='grid grid-cols-2 gap-5 mb-20'>
-
+                    <li className='projectItem2 grid grid-cols-2 gap-5 mb-20'>
                         <div>
                             <h2 className="text-blue-400 text-3xl font-['Syne'] font-extrabold uppercase mb-1">Innovatech.</h2>
                             <h3 className="text-neutral-200 text-2xl font-['Syne'] mb-5">Sistema de gestión de vacantes de empleo</h3>
@@ -73,8 +75,6 @@ export const Proyectos = () => {
                                 <Badges type="Spring" />
                                 <Badges type="MySql" />
                                 <Badges type="Java" />
-
-
                             </div>
                             <nav className='flex gap-5'>
                                 <div className='flex justify-center items-center gap-2'>
@@ -104,7 +104,7 @@ export const Proyectos = () => {
                             />
                         </div>
                     </li>
-                    <li className='grid grid-cols-2 gap-5 mb-20'>
+                    <li className='projectItem3 grid grid-cols-2 gap-5 mb-20'>
                         <div className='w-full h-full'>
                             <img
                                 src={SpaceX}
@@ -145,6 +145,6 @@ export const Proyectos = () => {
                     </li>
                 </ul>
             </div>
-        </section >
+        </section>
     )
 }

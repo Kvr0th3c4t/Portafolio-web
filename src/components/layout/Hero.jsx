@@ -11,7 +11,7 @@ export const Hero = () => {
         ".hero-button"],
         2,
         1,
-        0.45)
+        0.35)
 
     return (
         <section className='px-80 pt-15 min-h-screen' id='hero' ref={ref}>
