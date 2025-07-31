@@ -49,6 +49,7 @@ export const LeftSideBar = () => {
 
                 <li className="group navMail">
                     <a
+                        href="mailto:adrianc.crim@hotmail.com"
                         className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
                     >
                         <img
