@@ -18,9 +18,7 @@ export const Proyectos = () => {
             <div>
                 <ul className='space-y-12 sm:space-y-14 md:space-y-16 lg:space-y-18 xl:space-y-20'>
 
-                    {/* Proyecto 1 - PineHopper */}
                     <li className='projectItem1'>
-                        {/* Mobile: Stack vertical */}
                         <div className='flex flex-col xl:hidden gap-6'>
                             <div className='w-full'>
                                 <img
@@ -58,7 +56,6 @@ export const Proyectos = () => {
                             </div>
                         </div>
 
-                        {/* Desktop XL: Grid original */}
                         <div className='hidden xl:grid xl:grid-cols-2 xl:gap-5'>
                             <div className='w-full h-full'>
                                 <img
@@ -97,9 +94,7 @@ export const Proyectos = () => {
                         </div>
                     </li>
 
-                    {/* Proyecto 2 - Innovatech */}
                     <li className='projectItem2'>
-                        {/* Mobile: Stack vertical */}
                         <div className='flex flex-col xl:hidden gap-6'>
                             <div className='w-full'>
                                 <img
@@ -146,7 +141,6 @@ export const Proyectos = () => {
                             </div>
                         </div>
 
-                        {/* Desktop XL: Grid original */}
                         <div className='hidden xl:grid xl:grid-cols-2 xl:gap-5'>
                             <div>
                                 <h2 className="text-blue-400 text-3xl font-['Syne'] font-extrabold uppercase mb-1">Innovatech.</h2>
@@ -194,9 +188,7 @@ export const Proyectos = () => {
                         </div>
                     </li>
 
-                    {/* Proyecto 3 - SpaceX */}
                     <li className='projectItem3'>
-                        {/* Mobile: Stack vertical */}
                         <div className='flex flex-col xl:hidden gap-6'>
                             <div className='w-full'>
                                 <img
@@ -233,7 +225,6 @@ export const Proyectos = () => {
                             </div>
                         </div>
 
-                        {/* Desktop XL: Grid original */}
                         <div className='hidden xl:grid xl:grid-cols-2 xl:gap-5'>
                             <div className='w-full h-full'>
                                 <img

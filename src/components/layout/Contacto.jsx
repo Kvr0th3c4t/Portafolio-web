@@ -12,10 +12,8 @@ export const Contacto = () => {
                 <span className="text-blue-400 font-extrabold mb-5">III. </span>Contacto
             </h2>
 
-            {/* Responsive Layout: Stack vertical hasta lg, Grid en xl */}
             <div className='flex flex-col xl:grid xl:grid-cols-3 gap-8 sm:gap-9 md:gap-10 xl:gap-10'>
 
-                {/* Image Section */}
                 <div className="contactImage flex justify-center xl:justify-start xl:col-span-1">
                     <img
                         src={Kuro}
@@ -24,7 +22,6 @@ export const Contacto = () => {
                     />
                 </div>
 
-                {/* Content Section */}
                 <div className='contactContent flex flex-col justify-center items-center xl:col-span-2 text-center xl:text-left'>
                     <h1 className="text-blue-400 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-['Syne'] mb-3 sm:mb-3 md:mb-2 xl:mb-2">
                         ¡Este es Kuro!
