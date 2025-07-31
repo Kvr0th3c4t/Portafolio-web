@@ -10,7 +10,7 @@ export const Footer = () => {
                 <ul className='flex justify-center items-center m-0 p-0 gap-5'>
                     <li className="group navGit">
                         <a
-                            href="https://github.com/tu-usuario"
+                            href="https://github.com/Kvr0th3c4t"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
@@ -25,7 +25,7 @@ export const Footer = () => {
 
                     <li className="group navLink">
                         <a
-                            href="https://linkedin.com/in/tu-perfil"
+                            href="https://www.linkedin.com/in/adri%C3%A1n-carmonamad/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
@@ -40,7 +40,7 @@ export const Footer = () => {
 
                     <li className="group navMail">
                         <a
-                            href="mailto:tu-email@example.com"
+                            href="mailto:adrianc.crim@hotmail.com"
                             className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
                         >
                             <img

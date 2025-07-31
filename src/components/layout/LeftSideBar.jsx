@@ -19,7 +19,7 @@ export const LeftSideBar = () => {
             <ul className='flex flex-col items-center m-0 p-0 gap-5'>
                 <li className="group navGit">
                     <a
-                        href="https://github.com/tu-usuario"
+                        href="https://github.com/Kvr0th3c4t"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
@@ -34,7 +34,7 @@ export const LeftSideBar = () => {
 
                 <li className="group navLink">
                     <a
-                        href="https://linkedin.com/in/tu-perfil"
+                        href="https://www.linkedin.com/in/adri%C3%A1n-carmonamad/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
@@ -49,7 +49,6 @@ export const LeftSideBar = () => {
 
                 <li className="group navMail">
                     <a
-                        href="mailto:tu-email@example.com"
                         className="block p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
                     >
                         <img
