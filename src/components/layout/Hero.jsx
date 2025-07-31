@@ -14,17 +14,19 @@ export const Hero = () => {
         0.35)
 
     return (
-        <section className='px-80 pt-15 min-h-screen' id='hero' ref={ref}>
-            <div className="w-full min-h-[500px]">
-                <p className="hero-greeting text-blue-400 text-lg font-extrabold font-['RedHat'] mb-5">
+        <section className='px-10 md:px-20 lg:px-40 xl:px-80 pt-20 sm:pt-10 md:pt-12 lg:pt-14 xl:pt-20 min-h-screen w-full' id='hero' ref={ref}>
+            <div className="w-full min-h-[400px] sm:min-h-[450px] md:min-h-[480px] lg:min-h-[500px] xl:min-h-[500px]">
+                <p className="hero-greeting text-blue-400 text-sm sm:text-base md:text-lg xl:text-lg font-extrabold font-['RedHat'] mb-3 sm:mb-4 md:mb-4 lg:mb-5 xl:mb-5">
                     ¡Hola!, mi nombre es
                 </p>
 
-                <div className='hero-name flex justify-start items-center'>
-                    <h1 className="text-neutral-200 text-7xl font-extrabold font-['Syne'] mb-2">Adrián </h1>
+                <div className='hero-name flex flex-col sm:flex-col md:flex-row justify-start items-start md:items-center'>
+                    <h1 className="text-neutral-200 text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-extrabold font-['Syne'] mb-1 sm:mb-1 md:mb-2 xl:mb-2">
+                        Adrián
+                    </h1>
                     <RotatingText
-                        texts={[' Carmona', ' "Kvr0th3c4t"']}
-                        mainClassName="text-blue-400 text-7xl font-extrabold font-['Syne']"
+                        texts={['Carmona', '"Kvr0th3c4t"']}
+                        mainClassName="text-blue-400 text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-extrabold font-['Syne']"
                         staggerFrom={"first"}
                         initial={{ y: "100%" }}
                         animate={{ y: 0 }}
@@ -36,16 +38,16 @@ export const Hero = () => {
                     />
                 </div>
 
-                <p className="hero-subtitle text-neutral-400 font-['Syne'] text-5xl font-bold mb-5">
+                <p className="hero-subtitle text-neutral-400 font-['Syne'] text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 md:mb-4 lg:mb-5 xl:mb-5">
                     Y desarrollo aplicaciones web
                 </p>
 
-                <p className="hero-description text-neutral-400 font-['Syne'] text-lg font-bold mb-15 max-w-4xl">
+                <p className="hero-description text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg font-bold mb-8 sm:mb-10 md:mb-12 lg:mb-14 xl:mb-15 max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-3xl xl:max-w-4xl">
                     Soy un desarrollador web con enfoque en frontend, aunque también tengo conocimientos de backend que me permiten abordar proyectos full-stack.
                 </p>
 
                 <div className="hero-button">
-                    <Button text="Ver mis proyectos" href="#proyectos" className='px-10 py-3' />
+                    <Button text="Ver mis proyectos" href="#proyectos" className='px-6 py-3 sm:px-8 md:px-9 lg:px-10 xl:px-10 text-sm sm:text-base' />
                 </div>
             </div>
         </section>
