@@ -49,7 +49,7 @@ export const Proyectos = () => {
                                     <a href='https://github.com/Kvr0th3c4t/PineHopper' target='_blank' rel='noopener noreferrer'>
                                         <img src={Github} alt="GitHub" className="w-7 h-7 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-300" />
                                     </a>
-                                    <a href='https://tfgv2.adriancc.com/' target='_blank' rel='noopener noreferrer'>
+                                    <a href='https://pinehopper.adriancc.com/home' target='_blank' rel='noopener noreferrer'>
                                         <img src={External} alt="Live Demo" className="w-7 h-7 sm:w-8 sm:h-8 hover:scale-110 transition-transform duration-300" />
                                     </a>
                                 </nav>
