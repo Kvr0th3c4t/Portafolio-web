@@ -127,7 +127,6 @@ export const useBadges = () => {
             background: "bg-indigo-700/85",
             textColor: "text-indigo-200"
         },
-        ,
         {
             type: "C#",
             text: "C#",
@@ -135,13 +134,12 @@ export const useBadges = () => {
             background: "bg-indigo-700/85",
             textColor: "text-indigo-200"
         },
-        ,
         {
             type: "Blazor",
             text: "Blazor",
             img: Blazor,
-            background: "bg-violet-600/85",
-            textColor: "text-violet-200"
+            background: "bg-violet-300/85",
+            textColor: "text-violet-700"
         },
         {
             type: "SQL-Server",
@@ -154,8 +152,8 @@ export const useBadges = () => {
             type: "Azure",
             text: "Azure",
             img: Azure,
-            background: "bg-sky-600/85",
-            textColor: "text-sky-200"
+            background: "bg-sky-300/85",
+            textColor: "text-sky-700"
         },
     ], []);
 
