@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import profile from "../../../src/assets/img/Profile.webp"
 import { Button } from "../UI/Button"
-import CV from "../../../src/assets/docs/AdrianCC_CV.pdf"
+import CV from "../../../src/assets/docs/AdrianCV.pdf"
 import { useFadeIn } from "../../hooks/useFadeIn"
 
 export const Nav = () => {

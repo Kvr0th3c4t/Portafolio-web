@@ -21,34 +21,14 @@ export const SobreMi = () => {
                     />
                 </div>
 
-                <div className='xl:col-span-2 xl:order-1'>
+                <div className='xl:col-span-2 xl:order-1 xl:mt-10'>
                     <div className='sobreMiText mb-6 sm:mb-8'>
-                        <p className="mb-3 sm:mb-4 md:mb-2 xl:mb-2 text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg">
-                            Mi nombre es Adrián Carmona y soy desarrollador web. En 2018 terminé la carrera de <span className="text-blue-400">Criminología</span> y descubrí el mundo del hacking. En especial, me llamó la atención el <span className="text-blue-400">hacking web</span>, pero como no tenía conocimientos previos en programación, decidí estudiar <span className="text-blue-400">Desarrollo de Aplicaciones Web</span> para entender el entorno al completo.
+                        <p className="mb-5 sm:mb-4 md:mb-2 xl:mb-5 text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg">
+                            En 2018 terminé la carrera de <span className="text-blue-400">Criminología</span> y descubrí el mundo del hacking. Me llamó especialmente la atención el <span className="text-blue-400">hacking web</span>. Como no tenía conocimientos de programación, estudié <span className="text-blue-400">Desarrollo de Aplicaciones Web</span> para así poder comprender como funciona el entorno completo.
                         </p>
-                        <p className="mb-3 sm:mb-4 md:mb-2 xl:mb-2 text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg">
-                            A día de hoy, sigo interesado tanto en el hacking web como en el desarrollo web. Me encanta la tecnología espacial y el diseño UI/UX, aunque no tengo formación en este campo. Por eso, uno de mis referentes es Shane Mielke, por cómo combina el desarrollo web con interfaces visuales y por su trabajo en proyectos como SpaceX.
+                        <p className="mb-3 sm:mb-4 md:mb-2 xl:mb-5 text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg">
+                            Actualmente trabajo con el stack de Microsoft (.NET, C#) y exploro Azure Cloud. Este está me está permitiendo desarrollar aplicaciones a <span className="text-blue-400">nivel empresarial</span>, sin desmarcarme de mi objetivo principal que es <span className="text-blue-400">el desarrollo de videojuegos</span>.
                         </p>
-                        <p className="mb-6 sm:mb-6 md:mb-8 xl:mb-8 text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg">
-                            Estas son algunas de las tecnologías en las que estoy trabajando recientemente.
-                        </p>
-                    </div>
-
-                    <div className='sobreMiList'>
-                        <ul className='grid grid-cols-2 gap-2 xl:gap-2'>
-                            <li className="text-neutral-400 font-['Syne'] font-bold text-base sm:text-base md:text-lg xl:text-lg">
-                                <span className='text-blue-400 pr-2'>• </span>React
-                            </li>
-                            <li className="text-neutral-400 font-['Syne'] font-bold text-base sm:text-base md:text-lg xl:text-lg">
-                                <span className='text-blue-400 pr-2'>• </span>Astro
-                            </li>
-                            <li className="text-neutral-400 font-['Syne'] font-bold text-base sm:text-base md:text-lg xl:text-lg">
-                                <span className='text-blue-400 pr-2'>• </span>Tailwind
-                            </li>
-                            <li className="text-neutral-400 font-['Syne'] font-bold text-base sm:text-base md:text-lg xl:text-lg">
-                                <span className='text-blue-400 pr-2'>• </span>Node.Js
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>

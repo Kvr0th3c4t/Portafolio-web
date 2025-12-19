@@ -39,11 +39,12 @@ export const Hero = () => {
                 </div>
 
                 <p className="hero-subtitle text-neutral-400 font-['Syne'] text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 md:mb-4 lg:mb-5 xl:mb-5">
-                    Y desarrollo aplicaciones web
+                    Y soy desarrollador web Full-Stack
                 </p>
 
                 <p className="hero-description text-neutral-400 font-['Syne'] text-base sm:text-base md:text-lg xl:text-lg font-bold mb-8 sm:mb-10 md:mb-12 lg:mb-14 xl:mb-15 max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-3xl xl:max-w-4xl">
-                    Soy un desarrollador web con enfoque en frontend, aunque también tengo conocimientos de backend que me permiten abordar proyectos full-stack.
+                    Me encanta la física, la tecnología espacial y los videojuegos.
+                    <br></br>Actualmente estoy trabajando con el stack de Microsoft (.NET, C#) y explorando Azure Cloud para acercarme al desarrollo de videojuegos.
                 </p>
 
                 <div className="hero-button">

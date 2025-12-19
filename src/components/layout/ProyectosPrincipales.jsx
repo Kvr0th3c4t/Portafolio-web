@@ -1,6 +1,5 @@
 import React from 'react'
 import PinneHopper from "../../../src/assets/img/PinneHopper.webp"
-import Innovatech from "../../../src/assets/img/Innovatech.webp"
 import Github from "../../../src/assets/img/Icons/github.svg"
 import SpaceX from "../../../src/assets/img/spacexinfo.webp"
 import External from "../../../src/assets/img/Icons/external.svg"
@@ -9,7 +8,7 @@ import InventoryAPI from "../../../src/assets/img/InventoryAPI.webp"
 import { Badges } from '../UI/Badges'
 import { useScrollTrigger } from '../../hooks/useScrollTrigger'
 
-export const Proyectos = () => {
+export const ProyectosPrincipales = () => {
     const ref = useScrollTrigger(["projectsTitle", "projectItem1", "projectItem2", "projectItem3"])
 
     return (
